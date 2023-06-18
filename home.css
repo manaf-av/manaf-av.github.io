@@ -1,0 +1,73 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 32px;
+  color: #f00;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #f00;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
+
+/* Section styles */
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 24px;
+  color: #f00;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 18px;
+}
+
+/* Project styles */
+.project {
+  background-color: #222;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  color: #f00;
+  font-size: 20px;
+}
+
+/* Footer styles */
