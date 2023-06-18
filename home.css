@@ -11,6 +11,7 @@ body {
   background-color: #0d0d0d;
   color: #fff;
   line-height: 1.5;
+  overflow: auto;
 }
 
 /* Header styles */
@@ -84,4 +85,24 @@ a {
 /* Add spaces between lines */
 p {
   margin-bottom: 10px;
+}
+
+/* Social media links */
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.social-media li {
+  margin-right: 10px;
+}
+
+.social-media li:last-child {
+  margin-right: 0;
+}
+
+.social-media li a {
+  color: #fff;
 }
