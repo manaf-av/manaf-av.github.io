@@ -1,3 +1,8 @@
+/* Set the favicon using the html element */
+html {
+  background: url('https://github.com/manaf-av/manaf-av.github.io/blob/main/MICO.png?raw=true') no-repeat center center;
+}
+
 /* Reset some default styles */
 * {
   margin: 0;
